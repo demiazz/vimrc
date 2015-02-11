@@ -1,3 +1,7 @@
+" Compatibility (only for Vim, nvim ignore this option)
+
+  set nocompatible
+
 " History
 
   set history=1000
