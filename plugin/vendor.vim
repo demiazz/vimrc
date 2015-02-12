@@ -35,11 +35,11 @@
     'component': {
       'readonly': '%{&filetype=="help"?"":&readonly?"⭤":""}',
       'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
-      'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'
+      'fugitive': '%{exists("*fugitive#statusline")?fugitive#statusline():""}'
     },
     'component_visible_condition': {
       'readonly': '(&filetype!="help"&& &readonly)',
       'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
-      'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
+      'fugitive': '(exists("*fugitive#statusline") && ""!=fugitive#statusline())'
     }
   }
