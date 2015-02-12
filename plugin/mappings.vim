@@ -57,7 +57,7 @@
 
   " http://stackoverflow.com/questions/4387210/vim-how-to-map-two-tasks-under-one-shortcut-key
   " Vim 7.3 required
-  let g:relativenumber = 0
+  let g:relativenumber = 1
 
   function! ToogleRelativeNumber()
     if g:relativenumber == 0
