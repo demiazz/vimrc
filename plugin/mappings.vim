@@ -13,6 +13,10 @@
   nmap <C-k> <C-W>k
   nmap <C-l> <C-W>l
 
+" Close split
+
+  nmap <Leader>qq :close<CR>
+
 " Relative windows
 
   nmap <Leader><Left>  :leftabove vnew<CR>
