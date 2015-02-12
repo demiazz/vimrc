@@ -26,4 +26,9 @@
 
 " Lightline
 
-  let g:lightline = { 'colorscheme': 'solarized' }
+  let g:lightline = {
+    \   'colorscheme': 'solarized',
+    \   'component': {
+    \     'gitstatus': '%{fugitive#statusline()}',
+    \   },
+    \ }
