@@ -23,3 +23,7 @@
 
   " Enable syntax highlight
   syntax enable
+
+" Lightline
+
+  let g:lightline = { 'colorscheme': 'solarized' }
