@@ -46,5 +46,5 @@
 
 " IndentLine
 
-  let g:indentLine_color_term = 234
+  let g:indentLine_color_term = 187
   let g:indentLine_char       = '¦'
