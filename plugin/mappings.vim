@@ -78,3 +78,7 @@
   endfunction
 
   map <Leader>nm :call ToogleRelativeNumber()<CR>
+
+" Colorscheme
+
+  map <Leader>sb :call SwitchSolarized()<CR>

@@ -18,8 +18,26 @@
 
   " Enable solarized color scheme
   let g:solarized_termcolors=256
+  let g:solarized_light=1
   colorscheme solarized
-  set background=light
+
+  if g:solarized_light == 0
+    set background=dark
+  else
+    set background=light
+  endif
+
+  function SwitchSolarized()
+    if g:solarized_light == 0
+      let g:solarized_light = 1
+      set background=light
+      colorscheme solarized
+    else
+      let g:solarized_light = 0
+      set background=dark
+      colorscheme solarized
+    endif
+  endfunction
 
   " Enable syntax highlight
   syntax enable
