@@ -43,3 +43,8 @@
         \     'fugitive': '(exists("*fugitive#statusline") && ""!=fugitive#statusline())'
         \   }
         \ }
+
+" IndentLine
+
+  let g:indentLine_color_term = 234
+  let g:indentLine_char       = '¦'
