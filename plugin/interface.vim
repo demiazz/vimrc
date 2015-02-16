@@ -38,7 +38,6 @@
   set wrap
 
   " Don't break words when wrapping
-  " Only available when compiled with the +linebreak feature
   set linebreak
 
   " Show ↪ at the beginning of wrapped lines
@@ -46,12 +45,19 @@
     let &sbr = nr2char(8618).' '
   endif
 
+  set nolist
+
   " Number of column to be highlighted
   set colorcolumn=80
 
   " Maximum width of text that is being inserted
   " Longer lines will be broken after white space to get this width
-  set textwidth=80
+  set textwidth=0
+  set wrapmargin=0
+
+  set formatoptions+=l
+
+  highlight ColorColumn ctermbg=187
 
 
 " Indent
@@ -93,6 +99,15 @@
 " Line numbers
 
   set relativenumber
+
+" Autoread
+
+  " Auto read when a file is changed from the outside
+  set autoread
+
+" Lines to the cursor
+
+  set so=7
 
 " Status line
 
