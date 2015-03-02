@@ -48,3 +48,7 @@
 
   let g:indentLine_color_term = 187
   let g:indentLine_char       = '¦'
+
+" vim-json
+
+  let g:vim_json_syntax_conceal = 0
