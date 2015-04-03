@@ -52,3 +52,17 @@
 " vim-json
 
   let g:vim_json_syntax_conceal = 0
+
+" ctrlp
+
+let g:ctrlp_user_command = 'ag %s -i --nocolor
+                                   \ --nogroup
+                                   \ --hidden
+                                   \ --ignore .git
+                                   \ --ignore .svn
+                                   \ --ignore .hg
+                                   \ --ignore .DS_Store
+                                   \ --ignore node_modules/**/*
+                                   \ -g ""'
+
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }

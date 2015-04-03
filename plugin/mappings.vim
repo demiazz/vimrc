@@ -78,12 +78,3 @@
   endfunction
 
   map <Leader>nm :call ToogleRelativeNumber()<CR>
-
-" Unite
-
-map <Leader>ub  :Unite buffer<CR>
-map <Leader>ubu :Unite buffer
-map <Leader>uf  :Unite file<CR>
-map <Leader>ufu :Unite file
-map <Leader>ur  :Unite file_rec<CR>
-map <Leader>uru :Unite file_rec
