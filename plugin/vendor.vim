@@ -62,7 +62,7 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor
                                    \ --ignore .svn
                                    \ --ignore .hg
                                    \ --ignore .DS_Store
-                                   \ --ignore node_modules/**/*
+                                   \ --ignore "node_modules/**/*"
                                    \ -g ""'
 
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
