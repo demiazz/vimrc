@@ -47,11 +47,6 @@
   noremap  <Left>  <NOP>
   noremap  <Right> <NOP>
 
-  imap <C-h> <C-o>h
-  imap <C-j> <C-o>j
-  imap <C-k> <C-o>k
-  imap <C-l> <C-o>l
-
 " Ctrl + s
 
   map <C-s>  <Esc>:w<CR>
