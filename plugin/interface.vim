@@ -146,3 +146,11 @@
 
   " Map russian cyrillic keys
   set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
+
+
+" GUI
+
+if has("gui_running")
+  set guifont=Fira\ Mono:h14
+  set lines=999 columns=999
+endif
