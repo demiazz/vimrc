@@ -17,10 +17,10 @@
   set t_Co=256
 
   " Use light background
-  set background=light
+  set background=dark
 
   " Enable Tomorrow colorscheme
-  colorscheme Tomorrow
+  colorscheme Tomorrow-Night
 
   " Enable syntax highlight
   syntax enable
