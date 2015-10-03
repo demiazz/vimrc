@@ -1,7 +1,9 @@
 " Encoding and file format
 
-  " Encoding inside nvim
-  set encoding=utf-8
+  " Encoding inside vim
+  if !has('nvim')
+    set encoding=utf-8
+  endif
 
   " Default file encoding
   set fileencodings=utf-8,cp1251
