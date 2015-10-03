@@ -11,15 +11,16 @@
 
   nmap <Bs> :NERDTreeTabsToggle<CR>
 
-" Solarized
+" Tomorrow
 
   " Number of colors
   set t_Co=256
 
-  " Enable solarized color scheme
-  let g:solarized_termcolors=256
+  " Use light background
   set background=light
-  colorscheme solarized
+
+  " Enable Tomorrow colorscheme
+  colorscheme Tomorrow
 
   " Enable syntax highlight
   syntax enable
